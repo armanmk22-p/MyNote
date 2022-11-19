@@ -37,5 +37,5 @@ interface NotDao {
     suspend fun updateNote(note: Note)
 
     @Query("SELECT * FROM note_table ORDER BY Title ASC")
-    suspend fun getAllNote():Flow<List<Note>>
+    fun getAllNote():Flow<List<Note>>
 }

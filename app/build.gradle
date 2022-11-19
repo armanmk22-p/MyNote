@@ -54,6 +54,10 @@ dependencies {
     implementation "androidx.navigation:navigation-fragment-ktx:2.5.3"
     implementation "androidx.navigation:navigation-ui-ktx:2.5.3"
 
+    //lifecycle
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1"
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.3.1"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1"
 
 
 
@@ -62,6 +66,8 @@ dependencies {
     annotationProcessor("androidx.room:room-compiler:2.4.3")
     // To use Kotlin annotation processing tool (kapt)
     kapt "androidx.room:room-compiler:2.4.3"
+    implementation("androidx.room:room-ktx:2.4.3")
+
 
 
     //Coroutine

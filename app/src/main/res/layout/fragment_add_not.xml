@@ -23,7 +23,7 @@
             android:padding="16dp">
 
             <EditText
-                android:id="@+id/et_todo_name"
+                android:id="@+id/et_note_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autofillHints=""
